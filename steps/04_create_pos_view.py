@@ -115,8 +115,8 @@ if __name__ == "__main__":
     from utils import snowpark_utils
     session = snowpark_utils.get_snowpark_session()
 
-    create_pos_view(session)
-    create_pos_view_stream(session)
-#    test_pos_view(session)
+    # create_pos_view(session)
+    # create_pos_view_stream(session)
+    test_pos_view(session)
 
     session.close()
